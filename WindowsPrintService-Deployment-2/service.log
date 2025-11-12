@@ -1,0 +1,1173 @@
+2025-11-12 22:32:28,264 - src.config_manager - INFO - Configuration loaded successfully
+2025-11-12 22:32:28,264 - src.config_manager - INFO - Added missing config key: server_url
+2025-11-12 22:32:28,265 - src.config_manager - INFO - Added missing config key: client_id
+2025-11-12 22:32:28,265 - src.config_manager - INFO - Added missing config key: api_key
+2025-11-12 22:32:28,265 - src.config_manager - INFO - Added missing config key: poll_interval
+2025-11-12 22:32:28,265 - src.config_manager - INFO - Added missing config key: max_retries
+2025-11-12 22:32:28,265 - src.config_manager - INFO - Added missing config key: timeout_seconds
+2025-11-12 22:32:28,265 - src.config_manager - INFO - Added missing config key: local_api_port
+2025-11-12 22:32:28,266 - src.config_manager - INFO - Added missing config key: enable_cors
+2025-11-12 22:32:28,266 - src.config_manager - INFO - Added missing config key: temp_directory
+2025-11-12 22:32:28,266 - src.config_manager - INFO - Added missing config key: log_directory
+2025-11-12 22:32:28,266 - src.config_manager - INFO - Added missing config key: cache_directory
+2025-11-12 22:32:28,266 - src.config_manager - INFO - Added missing config key: log_level
+2025-11-12 22:32:28,266 - src.config_manager - INFO - Added missing config key: log_max_size
+2025-11-12 22:32:28,266 - src.config_manager - INFO - Added missing config key: log_backup_count
+2025-11-12 22:32:28,266 - src.config_manager - INFO - Added missing config key: max_concurrent_jobs
+2025-11-12 22:32:28,266 - src.config_manager - INFO - Added missing config key: enable_caching
+2025-11-12 22:32:28,266 - src.config_manager - INFO - Added missing config key: cache_max_size
+2025-11-12 22:32:28,267 - src.config_manager - INFO - Added missing config key: enable_burst_mode
+2025-11-12 22:32:28,267 - src.config_manager - INFO - Added missing config key: burst_duration
+2025-11-12 22:32:28,267 - src.config_manager - INFO - Added missing config key: burst_interval
+2025-11-12 22:32:28,267 - src.config_manager - INFO - Added missing config key: auto_printer_refresh
+2025-11-12 22:32:28,267 - src.config_manager - INFO - Added missing config key: printer_refresh_interval
+2025-11-12 22:32:28,267 - src.service_manager - INFO - Windows Print Service initialized
+2025-11-12 22:32:28,268 - src.service_manager - INFO - ============================================================
+2025-11-12 22:32:28,268 - src.service_manager - INFO - 🖨️  Windows Print Service - Ultra Fast Edition
+2025-11-12 22:32:28,268 - src.service_manager - INFO - ============================================================
+2025-11-12 22:32:28,268 - src.service_manager - INFO - Initializing service components...
+2025-11-12 22:32:28,268 - printer_manager - INFO - Refreshing printer list...
+2025-11-12 22:32:28,272 - printer_manager - INFO - Successfully refreshed 3 printers
+2025-11-12 22:32:28,272 - src.service_manager - INFO - ✓ Printer manager initialized
+2025-11-12 22:32:28,272 - src.service_manager - INFO - ✓ Print executor initialized
+2025-11-12 22:32:28,272 - src.service_manager - INFO - ✓ Job manager initialized
+2025-11-12 22:32:28,272 - src.service_manager - INFO - ✓ API server initialized
+2025-11-12 22:32:28,272 - src.service_manager - INFO - ✓ All components initialized successfully
+2025-11-12 22:32:28,273 - src.service_manager - INFO - Service Version: 1.0.0
+2025-11-12 22:32:28,273 - src.service_manager - INFO - Client ID: SURYA_3d468990
+2025-11-12 22:32:28,273 - src.service_manager - INFO - Django Server: http://localhost:8000
+2025-11-12 22:32:28,273 - src.service_manager - INFO - Local API: http://localhost:8081
+2025-11-12 22:32:28,273 - src.service_manager - INFO - Poll Interval: 100ms
+2025-11-12 22:32:28,273 - src.service_manager - INFO - ----------------------------------------
+2025-11-12 22:32:28,273 - src.service_manager - INFO - Printers Found: 3 total, 3 online
+2025-11-12 22:32:28,273 - src.service_manager - INFO -   ✓ TSC TE244
+2025-11-12 22:32:28,273 - src.service_manager - INFO -   ✓ TSC TA210
+2025-11-12 22:32:28,273 - src.service_manager - INFO -   ✓ Microsoft Print to PDF (Default)
+2025-11-12 22:32:28,273 - src.service_manager - ERROR - Failed to display startup info: 'PrintExecutor' object has no attribute 'preferred_tool'
+2025-11-12 22:32:28,273 - src.service_manager - INFO - Starting all service tasks...
+2025-11-12 22:32:28,273 - src.service_manager - INFO - Started 3 service tasks
+2025-11-12 22:32:28,274 - job_manager - INFO - Starting ultra-fast job processing
+2025-11-12 22:32:28,274 - job_manager - INFO - Poll interval: 100ms
+2025-11-12 22:32:28,274 - job_manager - INFO - Max retries per job: 3
+2025-11-12 22:32:28,277 - api_server - INFO - Starting API server on http://127.0.0.1:8081
+2025-11-12 22:32:28,307 - src.service_manager - INFO - Starting health monitor
+2025-11-12 22:32:28,307 - print_executor - INFO - Found SumatraPDF: C:\Program Files\SumatraPDF\SumatraPDF.exe
+2025-11-12 22:32:28,667 - print_executor - INFO - Print executor initialized with tool: sumatra
+2025-11-12 22:32:28,667 - print_executor - INFO - PDF manipulation: PDFtk found at C:\Program Files\PDFtk\bin\pdftk.exe
+2025-11-12 22:32:28,824 - api_server - INFO - ✓ API server verification successful
+2025-11-12 22:32:28,824 - api_server - INFO - ✓ API server started successfully on http://127.0.0.1:8081
+2025-11-12 22:32:32,598 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:32:36,776 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:32:40,943 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:32:45,128 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:32:49,296 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:32:53,481 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:32:57,676 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:01,884 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:06,069 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:10,267 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:14,465 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:18,626 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:22,812 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:26,984 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:31,169 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:35,369 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:39,576 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:43,778 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:47,988 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:52,208 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:33:56,406 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:00,606 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:04,808 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:09,020 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:13,224 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:17,436 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:21,639 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:25,860 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:30,051 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:34,238 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:38,440 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:42,597 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:46,759 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:50,962 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:55,152 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:34:59,335 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:03,534 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:07,723 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:11,919 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:16,101 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:20,280 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:24,470 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:28,673 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:32,839 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:37,047 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:41,254 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:45,399 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:49,554 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:53,747 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:35:57,931 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:02,117 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:06,275 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:10,437 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:14,633 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:18,818 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:22,986 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:27,189 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:31,389 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:35,585 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:39,790 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:43,983 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:48,183 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:52,386 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:36:56,555 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:00,745 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:04,945 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:09,158 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:13,353 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:17,552 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:21,732 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:24,859 - print_executor - INFO - Executing print job local_1762967244859
+2025-11-12 22:37:25,041 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:37:25,116 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:25,117 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:37:25,117 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_1os93yhm_extracted.pdf -> TSC TE244
+2025-11-12 22:37:25,117 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:37:25,117 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:25,117 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:25,117 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:25,117 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:25,117 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:37:25,889 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:25,889 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:25,889 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:25,889 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:25,890 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_w6a402xg_fitted.pdf
+2025-11-12 22:37:25,931 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:27,081 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:27,081 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:27,083 - print_executor - INFO - Job local_1762967244859 completed in 2223ms
+2025-11-12 22:37:28,355 - src.service_manager - WARNING - Job manager health check failed
+2025-11-12 22:37:28,588 - printer_manager - INFO - Refreshing printer list...
+2025-11-12 22:37:28,590 - printer_manager - INFO - Successfully refreshed 3 printers
+2025-11-12 22:37:28,591 - print_executor - INFO - Executing print job local_1762967248591
+2025-11-12 22:37:28,808 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:37:28,860 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:28,860 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:37:28,860 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_o6pydtzq_extracted.pdf -> TSC TE244
+2025-11-12 22:37:28,860 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:37:28,860 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:28,860 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:28,860 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:28,861 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:28,861 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:37:28,861 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:37:29,355 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:29,355 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:29,355 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:29,356 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:37:29,356 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:29,356 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_picknh0c_fitted.pdf
+2025-11-12 22:37:30,018 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:30,018 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:30,019 - print_executor - INFO - Job local_1762967248591 completed in 1428ms
+2025-11-12 22:37:30,085 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:31,616 - print_executor - INFO - Executing print job local_1762967251616
+2025-11-12 22:37:31,776 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:37:31,831 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:31,831 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:37:31,831 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_6776k06m_extracted.pdf -> TSC TE244
+2025-11-12 22:37:31,831 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:37:31,832 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:31,832 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:31,832 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:31,832 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:31,832 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:37:32,442 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:32,442 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:32,442 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:32,442 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:32,442 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_dpr8sifz_fitted.pdf
+2025-11-12 22:37:33,024 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:33,025 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:33,025 - print_executor - INFO - Job local_1762967251616 completed in 1409ms
+2025-11-12 22:37:34,268 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:34,536 - print_executor - INFO - Executing print job local_1762967254536
+2025-11-12 22:37:34,699 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:37:34,750 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:34,750 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:37:34,750 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_ail24xsx_extracted.pdf -> TSC TE244
+2025-11-12 22:37:34,751 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:37:34,751 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:34,751 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:34,751 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:34,751 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:34,751 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:37:34,751 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:37:35,248 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:35,248 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:35,249 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:35,249 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:37:35,249 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:35,249 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_j57f3tyl_fitted.pdf
+2025-11-12 22:37:35,814 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:35,814 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:35,814 - print_executor - INFO - Job local_1762967254536 completed in 1278ms
+2025-11-12 22:37:37,361 - print_executor - INFO - Executing print job local_1762967257361
+2025-11-12 22:37:37,538 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:37:37,594 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:37,594 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:37:37,594 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_gpzu42_3_extracted.pdf -> TSC TE244
+2025-11-12 22:37:37,594 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:37:37,594 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:37,594 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:37,594 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:37,594 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:37,594 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:37:38,209 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:38,210 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:38,210 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:38,210 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:38,210 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_zi5np63e_fitted.pdf
+2025-11-12 22:37:38,433 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:38,769 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:38,769 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:38,770 - print_executor - INFO - Job local_1762967257361 completed in 1409ms
+2025-11-12 22:37:40,280 - print_executor - INFO - Executing print job local_1762967260280
+2025-11-12 22:37:40,453 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:37:40,505 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:40,506 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:37:40,506 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_229cae7y_extracted.pdf -> TSC TE244
+2025-11-12 22:37:40,506 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:37:40,506 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:40,506 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:40,506 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:40,506 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:40,507 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:37:40,507 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:37:41,015 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:41,015 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:41,015 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:41,015 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:37:41,015 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:41,015 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_tttpxrim_fitted.pdf
+2025-11-12 22:37:41,565 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:41,566 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:41,566 - print_executor - INFO - Job local_1762967260280 completed in 1286ms
+2025-11-12 22:37:42,632 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:43,043 - print_executor - INFO - Executing print job local_1762967263043
+2025-11-12 22:37:43,197 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:37:43,248 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:43,248 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:37:43,248 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_4ixbx4bu_extracted.pdf -> TSC TE244
+2025-11-12 22:37:43,249 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:37:43,249 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:43,249 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:43,249 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:43,249 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:43,250 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:37:43,838 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:43,838 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:43,839 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:43,839 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:43,839 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_7x24xpxl_fitted.pdf
+2025-11-12 22:37:44,606 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:44,607 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:44,608 - print_executor - INFO - Job local_1762967263043 completed in 1564ms
+2025-11-12 22:37:46,123 - print_executor - INFO - Executing print job local_1762967266123
+2025-11-12 22:37:46,377 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:37:46,487 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:46,487 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:37:46,487 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_bo11xgp7_extracted.pdf -> TSC TE244
+2025-11-12 22:37:46,487 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:37:46,487 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:46,487 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:46,487 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:46,487 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:46,489 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:37:46,489 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:37:46,810 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:46,995 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:46,996 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:46,996 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:46,996 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:37:46,996 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:46,996 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_7rjdinsg_fitted.pdf
+2025-11-12 22:37:47,561 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:47,562 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:47,562 - print_executor - INFO - Job local_1762967266123 completed in 1439ms
+2025-11-12 22:37:49,600 - print_executor - INFO - Executing print job local_1762967269600
+2025-11-12 22:37:49,807 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:37:49,863 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:49,863 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:37:49,863 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_h1mesddx_extracted.pdf -> TSC TE244
+2025-11-12 22:37:49,863 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:37:49,863 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:49,863 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:49,864 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:49,864 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:49,864 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:37:50,437 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:50,437 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:50,438 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:50,438 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:50,438 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_mjmzylv6_fitted.pdf
+2025-11-12 22:37:50,978 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:50,979 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:50,979 - print_executor - INFO - Job local_1762967269600 completed in 1380ms
+2025-11-12 22:37:50,983 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:52,491 - print_executor - INFO - Executing print job local_1762967272491
+2025-11-12 22:37:52,667 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:37:52,717 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:52,717 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:37:52,717 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_a79hgsfn_extracted.pdf -> TSC TE244
+2025-11-12 22:37:52,717 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:37:52,718 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:52,718 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:52,718 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:52,718 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:52,718 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:37:52,718 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:37:53,313 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:53,313 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:53,313 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:53,313 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:37:53,313 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:53,313 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_1131u_b8_fitted.pdf
+2025-11-12 22:37:53,884 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:53,885 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:53,886 - print_executor - INFO - Job local_1762967272491 completed in 1395ms
+2025-11-12 22:37:55,167 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:55,328 - print_executor - INFO - Executing print job local_1762967275328
+2025-11-12 22:37:55,496 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:37:55,547 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:55,547 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:37:55,547 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_bijhekjy_extracted.pdf -> TSC TE244
+2025-11-12 22:37:55,547 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:37:55,547 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:55,547 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:55,547 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:55,547 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:55,548 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:37:56,142 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:56,142 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:56,142 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:56,143 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:56,143 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_dbty513j_fitted.pdf
+2025-11-12 22:37:56,679 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:56,679 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:56,680 - print_executor - INFO - Job local_1762967275328 completed in 1352ms
+2025-11-12 22:37:58,188 - print_executor - INFO - Executing print job local_1762967278188
+2025-11-12 22:37:58,335 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:37:58,385 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:37:58,385 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:37:58,385 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_10ulnmol_extracted.pdf -> TSC TE244
+2025-11-12 22:37:58,385 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:37:58,385 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:37:58,385 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:37:58,386 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:37:58,386 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:37:58,386 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:37:58,386 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:37:58,879 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:37:58,880 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:37:58,880 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:37:58,880 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:37:58,880 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:37:58,880 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_3itsfwfs_fitted.pdf
+2025-11-12 22:37:59,329 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:37:59,426 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:37:59,426 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:37:59,427 - print_executor - INFO - Job local_1762967278188 completed in 1238ms
+2025-11-12 22:38:00,932 - print_executor - INFO - Executing print job local_1762967280932
+2025-11-12 22:38:01,093 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:38:01,142 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:01,142 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:38:01,142 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_8eudto64_extracted.pdf -> TSC TE244
+2025-11-12 22:38:01,143 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:38:01,143 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:01,143 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:01,143 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:01,143 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:01,143 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:38:01,731 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:01,731 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:01,731 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:01,731 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:01,731 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_51xkns9c_fitted.pdf
+2025-11-12 22:38:02,266 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:02,267 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:02,267 - print_executor - INFO - Job local_1762967280932 completed in 1336ms
+2025-11-12 22:38:03,491 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:03,777 - print_executor - INFO - Executing print job local_1762967283777
+2025-11-12 22:38:03,987 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:38:04,038 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:04,038 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:38:04,038 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_upeuio_v_extracted.pdf -> TSC TE244
+2025-11-12 22:38:04,039 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:38:04,039 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:04,039 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:04,039 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:04,039 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:04,039 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:38:04,039 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:38:04,539 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:04,539 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:04,540 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:04,540 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:38:04,540 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:04,540 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted__un8z_c3_fitted.pdf
+2025-11-12 22:38:05,079 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:05,080 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:05,080 - print_executor - INFO - Job local_1762967283777 completed in 1303ms
+2025-11-12 22:38:07,211 - print_executor - INFO - Executing print job local_1762967287211
+2025-11-12 22:38:07,411 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:38:07,461 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:07,461 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:38:07,462 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted__xlfklqg_extracted.pdf -> TSC TE244
+2025-11-12 22:38:07,462 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:38:07,462 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:07,462 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:07,462 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:07,462 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:07,463 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:38:07,668 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:08,018 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:08,018 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:08,018 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:08,018 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:08,019 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_m593slx3_fitted.pdf
+2025-11-12 22:38:08,670 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:08,671 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:08,672 - print_executor - INFO - Job local_1762967287211 completed in 1462ms
+2025-11-12 22:38:10,651 - print_executor - INFO - Executing print job local_1762967290651
+2025-11-12 22:38:11,873 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:12,117 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:38:12,168 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:12,168 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:38:12,169 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_44isgug8_extracted.pdf -> TSC TE244
+2025-11-12 22:38:12,169 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:38:12,169 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:12,169 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:12,169 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:12,169 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:12,170 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:38:12,170 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:38:12,662 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:12,662 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:12,662 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:12,662 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:38:12,663 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:12,663 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_qb84qeg6_fitted.pdf
+2025-11-12 22:38:13,209 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:13,210 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:13,210 - print_executor - INFO - Job local_1762967290651 completed in 2558ms
+2025-11-12 22:38:15,126 - print_executor - INFO - Executing print job local_1762967295126
+2025-11-12 22:38:15,284 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:38:15,333 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:15,333 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:38:15,334 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_a3b3yxws_extracted.pdf -> TSC TE244
+2025-11-12 22:38:15,334 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:38:15,334 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:15,334 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:15,334 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:15,334 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:15,334 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:38:15,919 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:15,919 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:15,919 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:15,919 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:15,919 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_n1m63qka_fitted.pdf
+2025-11-12 22:38:16,075 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:16,446 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:16,446 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:16,447 - print_executor - INFO - Job local_1762967295126 completed in 1321ms
+2025-11-12 22:38:18,666 - print_executor - INFO - Executing print job local_1762967298666
+2025-11-12 22:38:18,835 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:38:18,885 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:18,885 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:38:18,886 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_gfeqmnwp_extracted.pdf -> TSC TE244
+2025-11-12 22:38:18,886 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:38:18,886 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:18,886 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:18,886 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:18,886 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:18,887 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:38:18,887 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:38:19,378 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:19,378 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:19,378 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:19,378 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:38:19,379 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:19,379 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_3ntjqhuj_fitted.pdf
+2025-11-12 22:38:20,071 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:20,072 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:20,074 - print_executor - INFO - Job local_1762967298666 completed in 1408ms
+2025-11-12 22:38:20,225 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:22,046 - print_executor - INFO - Executing print job local_1762967302046
+2025-11-12 22:38:22,233 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:38:22,340 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:22,341 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:38:22,341 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_j_sn3uh__extracted.pdf -> TSC TE244
+2025-11-12 22:38:22,341 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:38:22,341 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:22,341 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:22,341 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:22,341 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:22,342 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:38:22,958 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:22,959 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:22,959 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:22,959 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:22,959 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_6uktq4gq_fitted.pdf
+2025-11-12 22:38:23,547 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:23,548 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:23,548 - print_executor - INFO - Job local_1762967302046 completed in 1502ms
+2025-11-12 22:38:24,417 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:25,666 - print_executor - INFO - Executing print job local_1762967305666
+2025-11-12 22:38:25,811 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:38:25,868 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:25,868 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:38:25,868 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_n1k6jqqb_extracted.pdf -> TSC TE244
+2025-11-12 22:38:25,869 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:38:25,869 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:25,869 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:25,869 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:25,869 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:25,869 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:38:25,870 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:38:26,422 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:26,422 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:26,422 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:26,422 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:38:26,422 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:26,423 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted__pubcrxm_fitted.pdf
+2025-11-12 22:38:27,243 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:27,244 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:27,244 - print_executor - INFO - Job local_1762967305666 completed in 1577ms
+2025-11-12 22:38:28,629 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:29,140 - print_executor - INFO - Executing print job local_1762967309140
+2025-11-12 22:38:29,294 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:38:29,367 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:29,369 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:38:29,369 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_0p4ch_b2_extracted.pdf -> TSC TE244
+2025-11-12 22:38:29,370 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:38:29,370 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:29,370 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:29,370 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:29,371 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:29,371 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:38:30,084 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:30,084 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:30,084 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:30,084 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:30,084 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_b14ts0dm_fitted.pdf
+2025-11-12 22:38:30,648 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:30,648 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:30,649 - print_executor - INFO - Job local_1762967309140 completed in 1509ms
+2025-11-12 22:38:32,666 - print_executor - INFO - Executing print job local_1762967312666
+2025-11-12 22:38:32,803 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:32,912 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:38:32,978 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:32,979 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:38:32,979 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_3rb72s6t_extracted.pdf -> TSC TE244
+2025-11-12 22:38:32,979 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:38:32,979 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:32,979 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:32,979 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:32,979 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:32,980 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:38:32,980 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:38:33,579 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:33,579 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:33,579 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:33,579 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:38:33,580 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:33,580 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_0tjt063z_fitted.pdf
+2025-11-12 22:38:34,642 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:34,642 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:34,644 - print_executor - INFO - Job local_1762967312666 completed in 1978ms
+2025-11-12 22:38:36,085 - print_executor - INFO - Executing print job local_1762967316085
+2025-11-12 22:38:36,239 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:38:36,306 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:36,307 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:38:36,307 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_1v8cjzfl_extracted.pdf -> TSC TE244
+2025-11-12 22:38:36,307 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:38:36,307 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:36,308 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:36,309 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:36,309 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:36,310 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:38:36,987 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:37,129 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:37,129 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:37,129 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:37,129 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:37,129 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_t1yyywz0_fitted.pdf
+2025-11-12 22:38:37,698 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:37,698 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:37,699 - print_executor - INFO - Job local_1762967316085 completed in 1614ms
+2025-11-12 22:38:39,658 - print_executor - INFO - Executing print job local_1762967319658
+2025-11-12 22:38:39,817 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:38:39,868 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:39,868 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:38:39,868 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_n2ljy8bt_extracted.pdf -> TSC TE244
+2025-11-12 22:38:39,868 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:38:39,868 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:39,868 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:39,869 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:39,869 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:39,869 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:38:39,869 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:38:40,372 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:40,373 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:40,373 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:40,373 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:38:40,373 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:40,373 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_btopx3uj_fitted.pdf
+2025-11-12 22:38:41,092 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:41,093 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:41,093 - print_executor - INFO - Job local_1762967319658 completed in 1435ms
+2025-11-12 22:38:41,140 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:43,231 - print_executor - INFO - Executing print job local_1762967323231
+2025-11-12 22:38:43,398 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:38:43,451 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:43,451 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:38:43,451 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_lw_1xlhq_extracted.pdf -> TSC TE244
+2025-11-12 22:38:43,451 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:38:43,451 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:43,451 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:43,452 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:43,452 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:43,452 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:38:44,017 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:44,018 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:44,018 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:44,018 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:44,018 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_sl5v1uoa_fitted.pdf
+2025-11-12 22:38:44,560 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:44,561 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:44,561 - print_executor - INFO - Job local_1762967323231 completed in 1331ms
+2025-11-12 22:38:45,312 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:46,655 - print_executor - INFO - Executing print job local_1762967326655
+2025-11-12 22:38:46,840 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:38:46,977 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:46,989 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:38:46,990 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_qxbqr7xl_extracted.pdf -> TSC TE244
+2025-11-12 22:38:46,990 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:38:46,991 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:46,991 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:46,992 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:46,992 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:46,992 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:38:46,993 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:38:47,513 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:47,513 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:47,513 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:47,513 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:38:47,513 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:47,513 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_qn4_udep_fitted.pdf
+2025-11-12 22:38:48,058 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:48,058 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:48,059 - print_executor - INFO - Job local_1762967326655 completed in 1403ms
+2025-11-12 22:38:49,479 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:50,103 - print_executor - INFO - Executing print job local_1762967330103
+2025-11-12 22:38:50,281 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:38:50,338 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:50,338 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:38:50,338 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_r7qieggu_extracted.pdf -> TSC TE244
+2025-11-12 22:38:50,338 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:38:50,338 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:50,338 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:50,339 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:50,339 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:50,339 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:38:51,113 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:51,114 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:51,116 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:51,116 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:51,118 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_4shvovxt_fitted.pdf
+2025-11-12 22:38:51,896 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:51,896 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:51,897 - print_executor - INFO - Job local_1762967330103 completed in 1794ms
+2025-11-12 22:38:53,614 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:53,662 - print_executor - INFO - Executing print job local_1762967333662
+2025-11-12 22:38:53,821 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:38:53,872 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:53,872 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:38:53,872 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_cgke3l0i_extracted.pdf -> TSC TE244
+2025-11-12 22:38:53,872 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:38:53,872 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:53,872 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:53,873 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:53,873 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:53,873 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:38:53,873 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:38:54,410 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:54,411 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:54,411 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:54,411 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:38:54,411 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:54,411 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_3jchx9lq_fitted.pdf
+2025-11-12 22:38:55,070 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:55,071 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:55,071 - print_executor - INFO - Job local_1762967333662 completed in 1409ms
+2025-11-12 22:38:57,147 - print_executor - INFO - Executing print job local_1762967337146
+2025-11-12 22:38:57,299 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:38:57,357 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:38:57,357 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:38:57,357 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_vncv3ijj_extracted.pdf -> TSC TE244
+2025-11-12 22:38:57,357 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:38:57,358 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:38:57,358 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:38:57,358 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:38:57,358 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:38:57,359 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:38:57,809 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:38:58,170 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:38:58,171 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:38:58,171 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:38:58,171 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:38:58,171 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_0srylxn3_fitted.pdf
+2025-11-12 22:38:58,811 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:38:58,811 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:38:58,812 - print_executor - INFO - Job local_1762967337146 completed in 1665ms
+2025-11-12 22:39:00,668 - print_executor - INFO - Executing print job local_1762967340668
+2025-11-12 22:39:00,890 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:39:00,951 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:00,952 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:39:00,952 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_vu93yhdc_extracted.pdf -> TSC TE244
+2025-11-12 22:39:00,952 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:39:00,952 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:00,953 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:00,953 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:00,953 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:00,953 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:39:00,953 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:39:01,494 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:01,494 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:01,494 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:01,494 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:39:01,495 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:01,495 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_39csw2e6_fitted.pdf
+2025-11-12 22:39:01,977 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:02,181 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:02,182 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:02,183 - print_executor - INFO - Job local_1762967340668 completed in 1515ms
+2025-11-12 22:39:04,085 - print_executor - INFO - Executing print job local_1762967344085
+2025-11-12 22:39:04,246 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:39:04,301 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:04,301 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:39:04,301 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_dy2y7zbf_extracted.pdf -> TSC TE244
+2025-11-12 22:39:04,302 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:39:04,302 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:04,302 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:04,302 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:04,302 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:04,303 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:39:05,295 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:05,298 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:05,305 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:05,314 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:05,314 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_mxj2w5wb_fitted.pdf
+2025-11-12 22:39:06,081 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:06,081 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:06,082 - print_executor - INFO - Job local_1762967344085 completed in 1997ms
+2025-11-12 22:39:06,148 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:07,846 - print_executor - INFO - Executing print job local_1762967347846
+2025-11-12 22:39:07,993 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:39:08,058 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:08,058 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:39:08,058 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_84di59ux_extracted.pdf -> TSC TE244
+2025-11-12 22:39:08,058 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:39:08,059 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:08,059 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:08,059 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:08,059 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:08,059 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:39:08,060 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:39:08,586 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:08,587 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:08,587 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:08,587 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:39:08,587 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:08,587 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_lqx_8tqd_fitted.pdf
+2025-11-12 22:39:09,188 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:09,189 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:09,189 - print_executor - INFO - Job local_1762967347846 completed in 1343ms
+2025-11-12 22:39:10,292 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:11,111 - print_executor - INFO - Executing print job local_1762967351111
+2025-11-12 22:39:11,267 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:39:11,327 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:11,327 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:39:11,327 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_n06vpujr_extracted.pdf -> TSC TE244
+2025-11-12 22:39:11,327 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:39:11,327 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:11,327 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:11,328 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:11,328 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:11,329 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:39:11,959 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:11,959 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:11,959 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:11,959 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:11,959 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_1h9ow5y9_fitted.pdf
+2025-11-12 22:39:12,578 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:12,579 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:12,579 - print_executor - INFO - Job local_1762967351111 completed in 1468ms
+2025-11-12 22:39:14,471 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:14,660 - print_executor - INFO - Executing print job local_1762967354660
+2025-11-12 22:39:15,347 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:39:15,404 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:15,404 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:39:15,404 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_pe3h381g_extracted.pdf -> TSC TE244
+2025-11-12 22:39:15,404 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:39:15,404 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:15,404 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:15,404 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:15,404 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:15,405 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:39:15,405 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:39:15,925 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:15,925 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:15,925 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:15,925 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:39:15,925 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:15,925 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_35cypco2_fitted.pdf
+2025-11-12 22:39:16,600 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:16,601 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:16,602 - print_executor - INFO - Job local_1762967354660 completed in 1942ms
+2025-11-12 22:39:18,654 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:19,310 - print_executor - INFO - Executing print job local_1762967359310
+2025-11-12 22:39:19,532 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:39:19,594 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:19,594 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:39:19,594 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_ayz1qk98_extracted.pdf -> TSC TE244
+2025-11-12 22:39:19,594 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:39:19,594 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:19,594 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:19,594 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:19,595 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:19,595 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:39:20,387 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:20,388 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:20,388 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:20,388 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:20,388 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_19_1ipmc_fitted.pdf
+2025-11-12 22:39:21,101 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:21,102 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:21,102 - print_executor - INFO - Job local_1762967359310 completed in 1792ms
+2025-11-12 22:39:22,674 - print_executor - INFO - Executing print job local_1762967362674
+2025-11-12 22:39:22,845 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:39:22,857 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:22,902 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:22,902 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:39:22,902 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_qhh3e936_extracted.pdf -> TSC TE244
+2025-11-12 22:39:22,902 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:39:22,902 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:22,902 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:22,903 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:22,903 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:22,903 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:39:22,903 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:39:23,424 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:23,424 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:23,424 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:23,425 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:39:23,425 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:23,425 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_sc53lcn4_fitted.pdf
+2025-11-12 22:39:24,166 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:24,167 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:24,167 - print_executor - INFO - Job local_1762967362674 completed in 1494ms
+2025-11-12 22:39:26,512 - print_executor - INFO - Executing print job local_1762967366512
+2025-11-12 22:39:26,673 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:39:26,752 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:26,752 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:39:26,752 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_iq9gzal7_extracted.pdf -> TSC TE244
+2025-11-12 22:39:26,752 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:39:26,753 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:26,753 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:26,753 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:26,753 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:26,754 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:39:27,008 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:27,438 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:27,438 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:27,438 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:27,438 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:27,438 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_zg_ap8f5_fitted.pdf
+2025-11-12 22:39:28,212 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:28,213 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:28,213 - print_executor - INFO - Job local_1762967366512 completed in 1702ms
+2025-11-12 22:39:30,695 - print_executor - INFO - Executing print job local_1762967370695
+2025-11-12 22:39:30,872 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:39:30,977 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:30,978 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:39:30,978 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_ezjw7d_c_extracted.pdf -> TSC TE244
+2025-11-12 22:39:30,979 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:39:30,979 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:30,979 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:30,979 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:30,980 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:30,980 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:39:30,980 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:39:31,161 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:31,569 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:31,569 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:31,569 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:31,570 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:39:31,570 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:31,570 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_gpht3j95_fitted.pdf
+2025-11-12 22:39:32,237 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:32,238 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:32,238 - print_executor - INFO - Job local_1762967370695 completed in 1544ms
+2025-11-12 22:39:34,117 - print_executor - INFO - Executing print job local_1762967374117
+2025-11-12 22:39:34,353 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:39:34,404 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:34,404 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:39:34,404 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_ub4ubbl0_extracted.pdf -> TSC TE244
+2025-11-12 22:39:34,404 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:39:34,404 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:34,404 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:34,404 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:34,404 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:34,405 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:39:35,194 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:35,194 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:35,194 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:35,194 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:35,194 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_1vpwzzd1_fitted.pdf
+2025-11-12 22:39:35,307 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:35,758 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:35,759 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:35,759 - print_executor - INFO - Job local_1762967374117 completed in 1642ms
+2025-11-12 22:39:37,674 - print_executor - INFO - Executing print job local_1762967377674
+2025-11-12 22:39:37,830 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:39:37,882 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:37,882 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:39:37,882 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_nc5faenk_extracted.pdf -> TSC TE244
+2025-11-12 22:39:37,882 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:39:37,882 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:37,883 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:37,883 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:37,883 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:37,883 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:39:37,884 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:39:38,367 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:38,367 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:38,367 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:38,367 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:39:38,367 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:38,367 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_ow36aq2s_fitted.pdf
+2025-11-12 22:39:38,965 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:38,966 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:38,966 - print_executor - INFO - Job local_1762967377674 completed in 1292ms
+2025-11-12 22:39:39,486 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:41,116 - print_executor - INFO - Executing print job local_1762967381116
+2025-11-12 22:39:41,263 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:39:41,408 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:41,410 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:39:41,410 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_5oyrqd9o_extracted.pdf -> TSC TE244
+2025-11-12 22:39:41,410 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:39:41,410 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:41,411 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:41,411 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:41,411 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:41,415 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:39:42,105 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:42,105 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:42,105 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:42,105 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:42,105 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_to1edg_w_fitted.pdf
+2025-11-12 22:39:42,660 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:42,661 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:42,661 - print_executor - INFO - Job local_1762967381116 completed in 1546ms
+2025-11-12 22:39:43,667 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:44,671 - print_executor - INFO - Executing print job local_1762967384670
+2025-11-12 22:39:44,824 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:39:44,875 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:44,875 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:39:44,875 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted__zk77mav_extracted.pdf -> TSC TE244
+2025-11-12 22:39:44,875 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:39:44,875 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:44,875 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:44,876 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:44,876 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:44,876 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:39:44,876 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:39:45,420 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:45,420 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:45,420 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:45,420 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:39:45,420 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:45,420 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_xliriqc3_fitted.pdf
+2025-11-12 22:39:46,445 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:46,445 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:46,446 - print_executor - INFO - Job local_1762967384670 completed in 1776ms
+2025-11-12 22:39:47,827 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:48,136 - print_executor - INFO - Executing print job local_1762967388136
+2025-11-12 22:39:48,308 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:39:48,362 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:48,362 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:39:48,362 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_ei5z7el0_extracted.pdf -> TSC TE244
+2025-11-12 22:39:48,362 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:39:48,363 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:48,363 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:48,363 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:48,363 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:48,363 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:39:48,969 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:48,970 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:48,970 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:48,970 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:48,970 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_bxzsvj59_fitted.pdf
+2025-11-12 22:39:49,545 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:49,546 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:49,546 - print_executor - INFO - Job local_1762967388136 completed in 1410ms
+2025-11-12 22:39:51,672 - print_executor - INFO - Executing print job local_1762967391672
+2025-11-12 22:39:51,824 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:39:51,881 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:51,882 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:39:51,882 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_8p8kffxr_extracted.pdf -> TSC TE244
+2025-11-12 22:39:51,882 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:39:51,882 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:51,882 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:51,883 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:51,883 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:51,883 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:39:51,884 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:39:52,013 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:52,641 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:52,641 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:52,641 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:52,641 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:39:52,642 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:52,642 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_uqtwcr4o_fitted.pdf
+2025-11-12 22:39:53,271 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:53,272 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:53,272 - print_executor - INFO - Job local_1762967391672 completed in 1600ms
+2025-11-12 22:39:55,205 - print_executor - INFO - Executing print job local_1762967395205
+2025-11-12 22:39:55,345 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:39:55,403 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:55,403 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:39:55,403 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_44hgd6ef_extracted.pdf -> TSC TE244
+2025-11-12 22:39:55,404 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:39:55,404 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:55,404 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:55,404 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:55,404 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:55,405 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:39:56,035 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:56,035 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:56,035 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:56,036 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:56,036 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_ba7avxff_fitted.pdf
+2025-11-12 22:39:56,181 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:39:56,694 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:39:56,695 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:39:56,696 - print_executor - INFO - Job local_1762967395205 completed in 1491ms
+2025-11-12 22:39:58,670 - print_executor - INFO - Executing print job local_1762967398670
+2025-11-12 22:39:58,865 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:39:59,029 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:39:59,030 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:39:59,030 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_42pke_23_extracted.pdf -> TSC TE244
+2025-11-12 22:39:59,030 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:39:59,030 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:39:59,031 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:39:59,032 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:39:59,032 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:39:59,033 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:39:59,034 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:39:59,570 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:39:59,570 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:39:59,570 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:39:59,570 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:39:59,570 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:39:59,570 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_14gmdbmp_fitted.pdf
+2025-11-12 22:40:00,126 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:40:00,127 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:40:00,127 - print_executor - INFO - Job local_1762967398670 completed in 1457ms
+2025-11-12 22:40:00,341 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:40:02,100 - print_executor - INFO - Executing print job local_1762967402100
+2025-11-12 22:40:02,329 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:40:02,385 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:40:02,386 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:40:02,386 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_kw6f43pk_extracted.pdf -> TSC TE244
+2025-11-12 22:40:02,386 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:40:02,386 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:40:02,386 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:40:02,386 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:40:02,387 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:40:02,387 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:40:03,053 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:40:03,054 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:40:03,054 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:40:03,054 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:40:03,054 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_bd0gs22t_fitted.pdf
+2025-11-12 22:40:03,754 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:40:03,755 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:40:03,755 - print_executor - INFO - Job local_1762967402100 completed in 1655ms
+2025-11-12 22:40:04,568 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:40:05,664 - print_executor - INFO - Executing print job local_1762967405664
+2025-11-12 22:40:05,894 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:40:05,948 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:40:05,948 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:40:05,948 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_xynsssev_extracted.pdf -> TSC TE244
+2025-11-12 22:40:05,948 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:40:05,948 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:40:05,948 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:40:05,948 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:40:05,948 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:40:05,950 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:40:05,950 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:40:06,471 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:40:06,471 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:40:06,472 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:40:06,472 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:40:06,472 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:40:06,472 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_67chvg75_fitted.pdf
+2025-11-12 22:40:07,101 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:40:07,101 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:40:07,102 - print_executor - INFO - Job local_1762967405664 completed in 1439ms
+2025-11-12 22:40:08,769 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:40:09,102 - print_executor - INFO - Executing print job local_1762967409102
+2025-11-12 22:40:09,265 - print_executor - INFO - Extracting pages: 1
+2025-11-12 22:40:09,318 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:40:09,318 - print_executor - INFO - Page extraction successful: 1
+2025-11-12 22:40:09,318 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_hxba5yql_extracted.pdf -> TSC TE244
+2025-11-12 22:40:09,318 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper'}
+2025-11-12 22:40:09,318 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:40:09,318 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:40:09,318 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:40:09,318 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:40:09,319 - print_executor - INFO - Ghostscript fit-to-paper command for letter portrait (612x792)
+2025-11-12 22:40:10,113 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:40:10,113 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:40:10,114 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:40:10,114 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:40:10,114 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_kp2wnrt__fitted.pdf
+2025-11-12 22:40:10,690 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:40:10,691 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:40:10,691 - print_executor - INFO - Job local_1762967409102 completed in 1588ms
+2025-11-12 22:40:12,677 - print_executor - INFO - Executing print job local_1762967412676
+2025-11-12 22:40:12,825 - print_executor - INFO - Extracting pages: 2-2
+2025-11-12 22:40:12,882 - print_executor - INFO - PDFtk page extraction successful
+2025-11-12 22:40:12,882 - print_executor - INFO - Page extraction successful: 2-2
+2025-11-12 22:40:12,882 - print_executor - INFO - Starting print execution: C:\Users\teja0\AppData\Local\Temp\extracted_mv59mcsq_extracted.pdf -> TSC TE244
+2025-11-12 22:40:12,883 - print_executor - INFO - Print settings: {'copies': 1, 'auto_scale': True, 'scaling': 'fit_to_paper', 'orientation': 'landscape'}
+2025-11-12 22:40:12,883 - print_executor - INFO - Using preferred tool: sumatra
+2025-11-12 22:40:12,883 - print_executor - INFO - Print configuration - scaling: fit_to_paper, orientation: False, rotation: 0
+2025-11-12 22:40:12,883 - print_executor - INFO - Using Ghostscript fit-to-paper method
+2025-11-12 22:40:12,883 - print_executor - INFO - Using Ghostscript for fit-to-paper scaling
+2025-11-12 22:40:12,883 - print_executor - INFO - Using landscape orientation: 792x612
+2025-11-12 22:40:12,883 - print_executor - INFO - Ghostscript fit-to-paper command for letter landscape (792x612)
+2025-11-12 22:40:12,922 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
+2025-11-12 22:40:13,380 - print_executor - INFO - Ghostscript fit-to-paper scaling successful
+2025-11-12 22:40:13,380 - print_executor - INFO - Using no_scale for Ghostscript-fitted PDF to prevent double-scaling
+2025-11-12 22:40:13,380 - print_executor - INFO - Orientation will be enforced through PDF preprocessing (if available)
+2025-11-12 22:40:13,380 - print_executor - INFO - SumatraPDF orientation: landscape
+2025-11-12 22:40:13,380 - print_executor - INFO - Scaling: No Scale (scale=noscale)
+2025-11-12 22:40:13,380 - print_executor - INFO - SumatraPDF command: C:\Program Files\SumatraPDF\SumatraPDF.exe -print-to TSC TE244 -silent -print-settings orientation=landscape,scale=noscale C:\Users\teja0\AppData\Local\Temp\fitted_421y146o_fitted.pdf
+2025-11-12 22:40:14,154 - print_executor - INFO - SumatraPDF print completed successfully
+2025-11-12 22:40:14,176 - print_executor - INFO - Ghostscript fit-to-paper succeeded
+2025-11-12 22:40:14,184 - print_executor - INFO - Job local_1762967412676 completed in 1508ms
+2025-11-12 22:40:17,068 - job_manager - WARNING - Network error: Cannot connect to host localhost:8000 ssl:default [The remote computer refused the network connection]
